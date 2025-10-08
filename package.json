@@ -1,0 +1,30 @@
+{
+  "name": "simplest-project",
+  "version": "1.0.0",
+  "description": "Projet frontend avec Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "start": "webpack serve --mode=development",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [
+    "webpack",
+    "frontend",
+    "javascript",
+    "css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@bpifrance/design-system": "^6.1.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
