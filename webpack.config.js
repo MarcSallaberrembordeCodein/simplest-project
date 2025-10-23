@@ -51,6 +51,16 @@ module.exports = {
                     filename: 'fonts/[hash][ext][query]'
                 }
             },
+            // Hack du sideEffects définit dans le package.json dans le design-system de Propulsion pour pouvoir utiliser le css
+            {
+                test: /node_modules\/@bpifrance\/design-system\/.*\.css$/,
+                sideEffects: true,
+            },
+            // Hack du sideEffects définit dans le package.json dans le design-system de Propulsion pour pouvoir utiliser le js
+            {
+                test: /node_modules\/@bpifrance\/design-system\/.*\.js$/,
+                sideEffects: true,
+            }
         ],
     },
     
