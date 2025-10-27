@@ -7,6 +7,11 @@
   resolved "https://artifactory.laforge.cloud.bpifrance.fr/artifactory/api/npm/npm-all/@bpifrance/design-system/-/@bpifrance/design-system-6.1.0.tgz#1533123f6d9f4e916f52bb4ea82d3c0aed4f98f5"
   integrity sha512-mkdifj/+h6eRTa+do7aP0hd64YeiUapKY+xvCMW5GWqovOrATnJToMFWF1bDueH2k0wShxuokNAl82s1DRGA1A==
 
+"@bpifrance/propulsion-assets@1.7.0":
+  version "1.7.0"
+  resolved "https://artifactory.laforge.cloud.bpifrance.fr/artifactory/api/npm/npm-all/@bpifrance/propulsion-assets/-/@bpifrance/propulsion-assets-1.7.0.tgz#72aac9cbe76b65135006a1ea66ab91144fbea3da"
+  integrity sha512-5oDWVoHKnsLWSvICLjx2WbHd4RsvsdWAA7IEfx5fN8h7U/kLMTsQkMlBAD/MEGpJnPIfM/akjKr5VoGhxgB4wA==
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://artifactory.laforge.cloud.bpifrance.fr/artifactory/api/npm/npm-all/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"

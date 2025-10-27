@@ -5,11 +5,22 @@ import '@bpifrance/design-system/styles.css';
 import '@bpifrance/design-system/bpi.css';
 
 import '@bpifrance/design-system/propulsion-web-component.js'
+import { ppLeft_Arrow } from '@bpifrance/propulsion-assets/assets/Left_Arrow';
+var icons = [ppLeft_Arrow]
 
 // Fonction principale
 function init() {
     console.log('Application initialisée !');
-    
+
+
+    // Binding des icônes au composant pp-icon-initializer
+    const iconInitializer = document.querySelector('pp-icon-initializer-component');
+    if (iconInitializer) {
+        // Assigner la variable icons au composant
+        iconInitializer.icons = icons;
+        console.log('Icons bound to pp-icon-initializer-component:', icons);
+    }
+
     // Sélection du bouton
     const btn = document.getElementById('btn');
     
