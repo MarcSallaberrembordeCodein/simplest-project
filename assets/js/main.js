@@ -4,7 +4,6 @@ import '../css/style.css';
 import '@bpifrance/design-system/styles.css';
 import '@bpifrance/design-system/bpi.css';
 
-import '@bpifrance/design-system/propulsion-web-component.js'
 import { ppLeft_Arrow } from '@bpifrance/propulsion-assets/assets/Left_Arrow';
 var icons = [ppLeft_Arrow]
 
@@ -51,6 +50,8 @@ function init() {
         });
     }
 }
+
+import '@bpifrance/design-system/propulsion-web-component.js'
 
 // Initialisation quand le DOM est chargé
 document.addEventListener('DOMContentLoaded', init);
